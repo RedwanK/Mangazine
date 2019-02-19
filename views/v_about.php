@@ -28,14 +28,14 @@
                         <p>Welcome to the Nikki Blog</p>
                     </div>
 
-                    <img src="img/blog-img/7.jpg" alt="">
+                    <img src="<?=PATH_IMG?>blog-img/7.jpg" alt="">
 
                     <div class="about-text">
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                         <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
                         <blockquote>
                             <div class="blockquote-icon">
-                                <img src="img/core-img/quote.png" alt="">
+                                <img src="<?=PATH_IMG?>core-img/quote.png" alt="">
                             </div>
                             <div class="blockquote-text">
                                 <h5>“If you’re going to try, go all the way. There is no other feeling like that. You will be alone with the gods, and the nights will flame with fire.”</h5>
@@ -46,13 +46,13 @@
 
                     <div class="row">
                         <div class="col-12 col-md-4">
-                            <img src="img/blog-img/2.jpg" alt="">
+                            <img src="<?=PATH_IMG?>blog-img/2.jpg" alt="">
                         </div>
                         <div class="col-12 col-md-4">
-                            <img src="img/blog-img/3.jpg" alt="">
+                            <img src="<?=PATH_IMG?>blog-img/3.jpg" alt="">
                         </div>
                         <div class="col-12 col-md-4">
-                            <img src="img/blog-img/4.jpg" alt="">
+                            <img src="<?=PATH_IMG?>blog-img/4.jpg" alt="">
                         </div>
                     </div>
 
