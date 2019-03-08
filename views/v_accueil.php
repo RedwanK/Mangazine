@@ -22,16 +22,16 @@
 				<!-- Single Hero Post -->
 				<div class="single-hero-post d-flex flex-wrap">
 						<!-- Post Thumbnail -->
-						<div class="slide-post-thumbnail h-100 bg-img" style="background-image: url(<?=PATH_IMG?>blog-img/13.jpg);"></div>
+						<div class="slide-post-thumbnail h-100 bg-img" style="background-image: url(<?=PATH_IMG?>blog-img/fanArt1Dbz.jpg);"></div>
 						<!-- Post Content -->
 						<div class="slide-post-content h-100 d-flex align-items-center">
 								<div class="slide-post-text">
-										<p class="post-date" data-animation="fadeIn" data-delay="100ms">MAY 01, 2018 / lifestyle</p>
+										<p class="post-date" data-animation="fadeIn" data-delay="100ms">Le moment Fan Art</p>
 										<a href="#" class="post-title" data-animation="fadeIn" data-delay="300ms">
-												<h2>We’ve Launched More May Gal Meets Glam Collection Dresses</h2>
+												<h2>Un fan Art de Dragon Ball Z, mettant en scene Goku et Vegeta.</h2>
 										</a>
-										<p class="post-excerpt" data-animation="fadeIn" data-delay="500ms">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
-										<a href="#" class="btn nikki-btn" data-animation="fadeIn" data-delay="700ms">Read More</a>
+										<p class="post-excerpt" data-animation="fadeIn" data-delay="500ms">La particularité de ce fan Art est l'inversion. Ici Goku porte les habits de Vegeta et inversement. De plus, les poses adoptées (surtout celle de Goku) sont également inversées ce qui rend ce dessins intéréssant.</p>
+										<!--<a href="#" class="btn nikki-btn" data-animation="fadeIn" data-delay="700ms">Read More</a>-->
 								</div>
 								<!-- Page Count -->
 								<div class="page-count"></div>
@@ -41,16 +41,16 @@
 				<!-- Single Hero Post -->
 				<div class="single-hero-post d-flex flex-wrap">
 						<!-- Post Thumbnail -->
-						<div class="slide-post-thumbnail h-100 bg-img" style="background-image: url(<?=PATH_IMG?>blog-img/14.jpg);"></div>
+						<div class="slide-post-thumbnail h-100 bg-img" style="background-image: url(<?=PATH_IMG?>blog-img/fanArt1Naruto.png);"></div>
 						<!-- Post Content -->
 						<div class="slide-post-content h-100 d-flex align-items-center">
 								<div class="slide-post-text">
-										<p class="post-date" data-animation="fadeIn" data-delay="100ms">MAY 01, 2018 / lifestyle</p>
+										<p class="post-date" data-animation="fadeIn" data-delay="100ms">Le moment Fan Art</p>
 										<a href="#" class="post-title" data-animation="fadeIn" data-delay="300ms">
-												<h2>A Closer Look At Our Front Porch Items From Lowe’s</h2>
+												<h2>Un fan Art de Naruto, Naruto en mode kyubi (invention).</h2>
 										</a>
-										<p class="post-excerpt" data-animation="fadeIn" data-delay="500ms">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
-										<a href="#" class="btn nikki-btn" data-animation="fadeIn" data-delay="700ms">Read More</a>
+										<p class="post-excerpt" data-animation="fadeIn" data-delay="500ms">Un magnifique fan Art de naruto qui amène un nouveau character design pour naruto en mode Kyubi. On ressens bien toute la mauvaise aura du démon. Ce fan art correspondrait sans doute a la période d'avant guerre dans l'oeuvre.</p>
+
 								</div>
 								<!-- Page Count -->
 								<div class="page-count"></div>
@@ -60,16 +60,16 @@
 				<!-- Single Hero Post -->
 				<div class="single-hero-post d-flex flex-wrap">
 						<!-- Post Thumbnail -->
-						<div class="slide-post-thumbnail h-100 bg-img" style="background-image: url(<?=PATH_IMG?>blog-img/15.jpg);"></div>
+						<div class="slide-post-thumbnail h-100 bg-img" style="background-image: url(<?=PATH_IMG?>blog-img/fanArt1HxH.jpg);"></div>
 						<!-- Post Content -->
 						<div class="slide-post-content h-100 d-flex align-items-center">
 								<div class="slide-post-text">
-										<p class="post-date" data-animation="fadeIn" data-delay="100ms">MAY 01, 2018 / lifestyle</p>
+										<p class="post-date" data-animation="fadeIn" data-delay="100ms">Le moment Fan Art</p>
 										<a href="#" class="post-title" data-animation="fadeIn" data-delay="300ms">
-												<h2>Answering Your Most Frequent International Transportation Questions</h2>
+												<h2>Un fan art de Hunter X Hunter original.</h2>
 										</a>
-										<p class="post-excerpt" data-animation="fadeIn" data-delay="500ms">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
-										<a href="#" class="btn nikki-btn" data-animation="fadeIn" data-delay="700ms">Read More</a>
+										<p class="post-excerpt" data-animation="fadeIn" data-delay="500ms">Ce fan Art reprend la célèbre passion de la pêche pour Gon. Le dessins laisse bien apparaître la patte de l'auteur, on est totalement dans son univers et c'est très accueillant. Les couleurs sont vive et on ressent la joie de vivre de l'auteur.</p>
+
 								</div>
 								<!-- Page Count -->
 								<div class="page-count"></div>
@@ -99,18 +99,18 @@
 																</div>
 																<!-- Featured Post Content -->
 																<div class="featured-post-content">
-																		<p class="post-date">MAY 7, 2018 / lifestyle</p>
+																		<p class="post-date">8 MARS 2019 / Mangazine</p>
 																		<a href="#" class="post-title">
-																				<h2>A Closer Look At Our Front Porch Items From Lowe’s</h2>
+																				<h2>Aujourd'hui un nouveau rédacteur intègre notre équipe !</h2>
 																		</a>
-																		<p class="post-excerpt">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</p>
+																		<p class="post-excerpt">Un rédacteur très talentueux a intégré l'équipe de Mangazine ce vendredi 8 mars. Il s'appelle Paul et vous pourrez bientôt découvrir son premier article. Sa spécialité ? il parle japonais mieux qu'un japonais !</p>
 																</div>
 																<!-- Post Meta -->
 																<div class="post-meta d-flex align-items-center justify-content-between">
 																		<!-- Author Comments -->
 																		<div class="author-comments">
-																				<a href="#"><span>by</span> Colorlib</a>
-																				<a href="#">03 <span>Comments</span></a>
+																				<a href="#"><span>par</span> Redwan</a>
+																				<a href="#">03 <span>Commentaires</span></a>
 																		</div>
 																		<!-- Social Info -->
 																		<div class="social-info">
@@ -128,15 +128,15 @@
 														<div class="single-blog-post mb-50">
 																<!-- Thumbnail -->
 																<div class="post-thumbnail">
-																		<a href="?page=post"><img src="<?=PATH_IMG?>blog-img/1.jpg" alt=""></a>
+																		<a href="?page=post"><img src="<?=PATH_IMG?>blog-img/fire_punch.jpg" alt="fire punch"></a>
 																</div>
 																<!-- Content -->
 																<div class="post-content">
-																		<p class="post-date">MAY 10, 2018 / life</p>
+																		<p class="post-date">8 MARS 2019 / Article Complet</p>
 																		<a href="#" class="post-title">
-																				<h4>Travel Tuesday: Answering Your Most Frequent International Transportation Questions</h4>
+																				<h4>Fire Punch : Bienvenue dans le monde de la vengeance.</h4>
 																		</a>
-																		<p class="post-excerpt">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit.</p>
+																		<p class="post-excerpt">Découvrez un manga surpuissant qui saura vous remettre en cause.</p>
 																</div>
 														</div>
 												</div>
@@ -146,15 +146,15 @@
 														<div class="single-blog-post mb-50">
 																<!-- Thumbnail -->
 																<div class="post-thumbnail">
-																		<a href="#"><img src="<?=PATH_IMG?>blog-img/2.jpg" alt=""></a>
+																		<a href="#"><img src="<?=PATH_IMG?>blog-img/erased.jpg" alt="erased"></a>
 																</div>
 																<!-- Content -->
 																<div class="post-content">
-																		<p class="post-date">MAY 17, 2018 / Sport</p>
+																		<p class="post-date">10 MARS 2019 / Revue d'Anime</p>
 																		<a href="#" class="post-title">
-																				<h4>A Closer Look At Our Front Porch Items From Lowe’s</h4>
+																				<h4>Erased : un retour en enfance !</h4>
 																		</a>
-																		<p class="post-excerpt">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+																		<p class="post-excerpt">On suit l'histoire d'un mangaka qui n'a pas percé, et qui ère dans une boucle temporelle.</p>
 																</div>
 														</div>
 												</div>
@@ -164,15 +164,15 @@
 														<div class="single-blog-post mb-50">
 																<!-- Thumbnail -->
 																<div class="post-thumbnail">
-																		<a href="#"><img src="<?=PATH_IMG?>blog-img/3.jpg" alt=""></a>
+																		<a href="#"><img src="<?=PATH_IMG?>blog-img/initialD.jpg" alt="initial D"></a>
 																</div>
 																<!-- Content -->
 																<div class="post-content">
-																		<p class="post-date">MAY 22, 2018 / lifestyle</p>
+																		<p class="post-date">12 MARS 2019 / Article Complet</p>
 																		<a href="#" class="post-title">
-																				<h4>Wedding Guest Style: From Beach Casual to Black-Tie Formal</h4>
+																				<h4>Initial D : L'histoire accrochante d'un jeune prodige.</h4>
 																		</a>
-																		<p class="post-excerpt">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+																		<p class="post-excerpt">L'histoire incroyable du jeune Takumi Fujiwara qui arpente les routes du col d'Akina (Japon) au volant de sa Toyota AE86.</p>
 																</div>
 														</div>
 												</div>
@@ -182,15 +182,15 @@
 														<div class="single-blog-post mb-50">
 																<!-- Thumbnail -->
 																<div class="post-thumbnail">
-																		<a href="#"><img src="<?=PATH_IMG?>blog-img/4.jpg" alt=""></a>
+																		<a href="#"><img src="<?=PATH_IMG?>blog-img/gto.jpg" alt="GTO"></a>
 																</div>
 																<!-- Content -->
 																<div class="post-content">
-																		<p class="post-date">MAY 25, 2018 / Fashion</p>
+																		<p class="post-date">14 MARS 2019 / Article Complet</p>
 																		<a href="#" class="post-title">
-																				<h4>5 Things to Know About Dating a Bisexual</h4>
+																				<h4>Great Teacher Onizuka (GTO) : L'histoire folle d'Onizuka</h4>
 																		</a>
-																		<p class="post-excerpt">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+																		<p class="post-excerpt">Eikichi Onizuka 22 ans célibataire et libre comme l'air.</p>
 																</div>
 														</div>
 												</div>
@@ -200,15 +200,15 @@
 														<div class="single-blog-post mb-50">
 																<!-- Thumbnail -->
 																<div class="post-thumbnail">
-																		<a href="#"><img src="<?=PATH_IMG?>blog-img/5.jpg" alt=""></a>
+																		<a href="#"><img src="<?=PATH_IMG?>blog-img/akame.jpg" alt="akame ga kill"></a>
 																</div>
 																<!-- Content -->
 																<div class="post-content">
-																		<p class="post-date">MAY 29, 2018 / food</p>
+																		<p class="post-date">15 MARS 2019 / Article Complet</p>
 																		<a href="#" class="post-title">
-																				<h4>7 Things Wealthy Women Do With Their Money That You Can Do Too</h4>
+																				<h4>Akame Ga Kill : Le Kill Bill Japonais.</h4>
 																		</a>
-																		<p class="post-excerpt">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+																		<p class="post-excerpt">Tatsumi veut rentrer dans l'armée, mais s'aperçoit bien vite que la réalité n'est pas aussi rose que l'imagination.</p>
 																</div>
 														</div>
 												</div>
@@ -218,15 +218,15 @@
 														<div class="single-blog-post mb-50">
 																<!-- Thumbnail -->
 																<div class="post-thumbnail">
-																		<a href="#"><img src="<?=PATH_IMG?>blog-img/6.jpg" alt=""></a>
+																		<a href="#"><img src="<?=PATH_IMG?>blog-img/angel.jpg" alt="angel beats"></a>
 																</div>
 																<!-- Content -->
 																<div class="post-content">
-																		<p class="post-date">Jun 02, 2018 / SummerHoliday</p>
+																		<p class="post-date">20 MARS 2019 / Article Complet</p>
 																		<a href="#" class="post-title">
-																				<h4>The 10 Most Instagrammable Spots in San Diego</h4>
+																				<h4>Angel Beats : Un réveil brutal.</h4>
 																		</a>
-																		<p class="post-excerpt">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+																		<p class="post-excerpt">L'histoire etonnante de lycéens dans l'au delà.</p>
 																</div>
 														</div>
 												</div>

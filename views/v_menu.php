@@ -9,7 +9,7 @@
                     <nav class="classy-navbar justify-content-between" id="nikkiNav">
 
                         <!-- Nav brand -->
-                        <a href="../" class="nav-brand"><img src="<?=PATH_IMG?>/core-img/logo.png" alt=""></a>
+                        <a href="../" class="nav-brand"><img src="<?=PATH_IMG?>/blog-img/logoM.png" alt=""></a>
 
                         <!-- Navbar Toggler -->
                         <div class="classy-navbar-toggler">
@@ -30,12 +30,12 @@
                                     <li><a href="../"><?=HOME?></a></li>
                                     <li><a href="#">Pages</a>
                                         <ul class="dropdown">
-                                            <li><a href="index.html">Home</a></li>
-                                            <li><a href="archive-blog.html">Archive Blog</a></li>
-                                            <li><a href="single-post.html">Single Post</a></li>
-                                            <li><a href="about-us.html">About</a></li>
-                                            <li><a href="contact.html">Contact</a></li>
-                                            <li><a href="typography.html">Typography</a></li>
+                                            <li><a href="index.php?page=accueil">Home</a></li>
+                                            <li><a href="#">Archive Blog</a></li>
+                                            <li><a href="#">Single Post</a></li>
+                                            <li><a href="index.php?page=about">About</a></li>
+                                            <li><a href="index.php?page=about">Contact</a></li>
+                                            <li><a href="#">Typography</a></li>
                                         </ul>
                                     </li>
                                     <li><a href="?page=about"><?=ABOUT?></a></li>
