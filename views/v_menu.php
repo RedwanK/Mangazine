@@ -32,7 +32,7 @@
                                         <ul class="dropdown">
                                             <li><a href="index.php?page=accueil">Home</a></li>
                                             <li><a href="#">Archive Blog</a></li>
-                                            <li><a href="#">Single Post</a></li>
+                                            <li><a href="index.php?page=post">Single Post</a></li>
                                             <li><a href="index.php?page=about">About</a></li>
                                             <li><a href="index.php?page=about">Contact</a></li>
                                             <li><a href="#">Typography</a></li>

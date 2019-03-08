@@ -132,7 +132,7 @@
 																</div>
 																<!-- Content -->
 																<div class="post-content">
-																		<p class="post-date">8 MARS 2019 / Article Complet</p>
+																		<p class="post-date">20 MARS 2019 / Article Complet</p>
 																		<a href="#" class="post-title">
 																				<h4>Fire Punch : Bienvenue dans le monde de la vengeance.</h4>
 																		</a>
@@ -150,7 +150,7 @@
 																</div>
 																<!-- Content -->
 																<div class="post-content">
-																		<p class="post-date">10 MARS 2019 / Revue d'Anime</p>
+																		<p class="post-date">18 MARS 2019 / Revue d'Anime</p>
 																		<a href="#" class="post-title">
 																				<h4>Erased : un retour en enfance !</h4>
 																		</a>
@@ -168,7 +168,7 @@
 																</div>
 																<!-- Content -->
 																<div class="post-content">
-																		<p class="post-date">12 MARS 2019 / Article Complet</p>
+																		<p class="post-date">16 MARS 2019 / Article Complet</p>
 																		<a href="#" class="post-title">
 																				<h4>Initial D : L'histoire accrochante d'un jeune prodige.</h4>
 																		</a>
@@ -204,7 +204,7 @@
 																</div>
 																<!-- Content -->
 																<div class="post-content">
-																		<p class="post-date">15 MARS 2019 / Article Complet</p>
+																		<p class="post-date">12 MARS 2019 / Article Complet</p>
 																		<a href="#" class="post-title">
 																				<h4>Akame Ga Kill : Le Kill Bill Japonais.</h4>
 																		</a>
@@ -222,7 +222,7 @@
 																</div>
 																<!-- Content -->
 																<div class="post-content">
-																		<p class="post-date">20 MARS 2019 / Article Complet</p>
+																		<p class="post-date">10 MARS 2019 / Article Complet</p>
 																		<a href="#" class="post-title">
 																				<h4>Angel Beats : Un réveil brutal.</h4>
 																		</a>
@@ -235,10 +235,10 @@
 								</div>
 
 								<!-- Pager -->
-								<ol class="nikki-pager">
+								<!--<ol class="nikki-pager">
 										<li><a href="#"><i class="fa fa-long-arrow-left" aria-hidden="true"></i> Newer</a></li>
 										<li><a href="#">Older <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a></li>
-								</ol>
+								</ol>-->
 						</div>
 
 						<!-- Blog Sidebar Area -->
@@ -249,16 +249,15 @@
 										<div class="single-widget-area mb-30">
 												<!-- Title -->
 												<div class="widget-title">
-														<h6>About Me</h6>
+														<h6>A propos de nous</h6>
 												</div>
 												<!-- Thumbnail -->
 												<div class="about-thumbnail">
-														<img src="<?=PATH_IMG?>blog-img/about-me.jpg" alt="">
+														<img src="<?=PATH_IMG?>blog-img/logoM.png" alt=" logo mangazine">
 												</div>
 												<!-- Content -->
 												<div class="widget-content text-center">
-														<img src="<?=PATH_IMG?>core-img/signature.png" alt="">
-														<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ipsum adipisicing</p>
+														<p>Bienvenue sur Mangazine.com, nous sommes 5 rédacteurs : Redwan, Berson, Mohamed, Paul et Lucien.</p>
 												</div>
 										</div>
 
@@ -266,7 +265,7 @@
 										<div class="single-widget-area mb-30">
 												<!-- Title -->
 												<div class="widget-title">
-														<h6>Subscribe &amp; Follow</h6>
+														<h6>Suivez nous sur les réseaux !</h6>
 												</div>
 												<!-- Widget Social Info -->
 												<div class="widget-social-info text-center">
@@ -284,71 +283,71 @@
 										<div class="single-widget-area mb-30">
 												<!-- Title -->
 												<div class="widget-title">
-														<h6>Latest Posts</h6>
+														<h6>Les derniers articles</h6>
 												</div>
 
 												<!-- Single Latest Posts -->
 												<div class="single-latest-post d-flex">
 														<div class="post-thumb">
-																<img src="<?=PATH_IMG?>blog-img/lp1.jpg" alt="">
+																<img src="<?=PATH_IMG?>blog-img/Fire-punch.jpg" alt="fire_punch">
 														</div>
 														<div class="post-content">
 																<a href="#" class="post-title">
-																		<h6>10 Books to Read This Summer If You Want to Improve Yourself</h6>
+																		<h6>Fire Punch</h6>
 																</a>
-																<a href="#" class="post-author"><span>by</span> Colorlib</a>
-														</div>
-												</div>
-
-												<!-- Single Latest Posts -->
-												<div class="single-latest-post d-flex">
-														<div class="post-thumb">
-																<img src="<?=PATH_IMG?>blog-img/lp2.jpg" alt="">
-														</div>
-														<div class="post-content">
-																<a href="#" class="post-title">
-																		<h6>Why I Decided to Give up My Favorite Foods and Go Vegan</h6>
-																</a>
-																<a href="#" class="post-author"><span>by</span> Colorlib</a>
+																<a href="#" class="post-author"><span>par</span> Paul</a>
 														</div>
 												</div>
 
 												<!-- Single Latest Posts -->
 												<div class="single-latest-post d-flex">
 														<div class="post-thumb">
-																<img src="img/blog-img/lp3.jpg" alt="">
+																<img src="<?=PATH_IMG?>blog-img/erased2.png" alt="erased">
 														</div>
 														<div class="post-content">
 																<a href="#" class="post-title">
-																		<h6>The 10 Most Instagrammable Spots in San Diego</h6>
+																		<h6>Erased</h6>
 																</a>
-																<a href="#" class="post-author"><span>by</span> Colorlib</a>
+																<a href="#" class="post-author"><span>par</span> Berson</a>
 														</div>
 												</div>
 
 												<!-- Single Latest Posts -->
 												<div class="single-latest-post d-flex">
 														<div class="post-thumb">
-																<img src="<?=PATH_IMG?>blog-img/lp4.jpg" alt="">
+																<img src="<?=PATH_IMG?>blog-img/initialD2.jpg" alt="">
 														</div>
 														<div class="post-content">
 																<a href="#" class="post-title">
-																		<h6>5 Things to Know About Dating a Bisexual</h6>
+																		<h6>Initial D</h6>
 																</a>
-																<a href="#" class="post-author"><span>by</span> Colorlib</a>
+																<a href="#" class="post-author"><span>par</span> Redwan</a>
 														</div>
 												</div>
 
 												<!-- Single Latest Posts -->
 												<div class="single-latest-post d-flex">
 														<div class="post-thumb">
-																<img src="<?=PATH_IMG?>blog-img/lp5.jpg" alt="">
+																<img src="<?=PATH_IMG?>blog-img/gto2.jpg" alt="gto">
 														</div>
 														<div class="post-content">
 																<a href="#" class="post-title">
-																		<h6>How to Take Critical Feedback at Work (Like a Boss)</h6>
+																		<h6>Great Teacher Onizuka</h6>
 																</a>
-																<a href="#" class="post-author"><span>by</span> Colorlib</a>
+																<a href="#" class="post-author"><span>par</span> Mohamed</a>
+														</div>
+												</div>
+
+												<!-- Single Latest Posts -->
+												<div class="single-latest-post d-flex">
+														<div class="post-thumb">
+																<img src="<?=PATH_IMG?>blog-img/akame2.jpg" alt="akame ga kill">
+														</div>
+														<div class="post-content">
+																<a href="#" class="post-title">
+																		<h6>Akame Ga Kill</h6>
+																</a>
+																<a href="#" class="post-author"><span>par</span> Mohamed</a>
 														</div>
 												</div>
 
@@ -364,13 +363,13 @@
 										<div class="single-widget-area mb-30">
 												<!-- Title -->
 												<div class="widget-title">
-														<h6>Newsletter</h6>
+														<h6>Webzine</h6>
 												</div>
 												<!-- Content -->
 												<div class="newsletter-content">
-														<p>Subscribe our newsletter for get notification about new updates, information discount, etc.</p>
+														<p>Abonnez-vous à notre Webzine pour recevoir des notifications sur la sorties d'articles, des posts sur le site etc..</p>
 														<form action="#" method="post">
-																<input type="email" name="email" class="form-control" placeholder="Your email">
+																<input type="email" name="email" class="form-control" placeholder="Laissez nous votre adresse mail">
 																<button><i class="fa fa-send"></i></button>
 														</form>
 												</div>
@@ -380,19 +379,19 @@
 										<div class="single-widget-area mb-30">
 												<!-- Title -->
 												<div class="widget-title">
-														<h6>popular tags</h6>
+														<h6>Les Tags populaires</h6>
 												</div>
 												<!-- Tags -->
 												<ol class="popular-tags d-flex flex-wrap">
-														<li><a href="#">LifeStyle</a></li>
-														<li><a href="#">Sport</a></li>
-														<li><a href="#">Fashion</a></li>
-														<li><a href="#">Photography</a></li>
-														<li><a href="#">Yoga</a></li>
-														<li><a href="#">Health Food</a></li>
-														<li><a href="#">Summer Holiday</a></li>
-														<li><a href="#">Supper Food</a></li>
-														<li><a href="#">Life</a></li>
+														<li><a href="#">Anime</a></li>
+														<li><a href="#">Manga</a></li>
+														<li><a href="#">Cosplay</a></li>
+														<li><a href="#">Japon</a></li>
+														<li><a href="#">Culture</a></li>
+														<li><a href="#">Shonen</a></li>
+														<li><a href="#">Seinen</a></li>
+														<li><a href="#">Live Action</a></li>
+														<li><a href="#">Scan</a></li>
 												</ol>
 										</div>
 
