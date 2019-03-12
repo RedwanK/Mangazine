@@ -58,7 +58,7 @@
                                 <a href="#" class="pin"><i class="fa fa-thumb-tack" aria-hidden="true"></i></a>
                             </div>
 
-                            <?php require_once(PATH_TEXTES.$currentArticle->getTexte());?>
+                            <?php require_once("./Post/".$currentArticle->getTexte());?>
 
                             <blockquote class="shortcodes">
                                 <div class="blockquote-icon">
@@ -72,10 +72,10 @@
 
                             <div class="row">
                                 <div class="col-12 col-md-6">
-                                    <img class="mb-30" src="<?=PATH_IMG?><?=  $currentArticle->getIm2() ?>" alt="">
+                                    <img class="mb-30" src="<?=PATH_IMG?>/post/<?=  $currentArticle->getIm2() ?>" alt="">
                                 </div>
                                 <div class="col-12 col-md-6">
-                                    <img class="mb-30" src="<?=PATH_IMG?><?=  $currentArticle->getIm3() ?>" alt="">
+                                    <img class="mb-30" src="<?=PATH_IMG?>/post/<?=  $currentArticle->getIm3() ?>" alt="">
                                 </div>
                             </div>
 

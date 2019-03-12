@@ -218,7 +218,7 @@
 														<div class="single-blog-post mb-50">
 																<!-- Thumbnail -->
 																<div class="post-thumbnail">
-																		<a href="index.php?post=angel"><img src="<?=PATH_IMG?>blog-img/angel.jpg" alt="angel beats"></a>
+																		<a href="index.php?post=Angel"><img src="<?=PATH_IMG?>blog-img/angel.jpg" alt="angel beats"></a>
 																</div>
 																<!-- Content -->
 																<div class="post-content">
