@@ -9,7 +9,7 @@
             <div class="col-12">
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="../"><i class="fa fa-home"></i> <?=HOME?></a></li>
+                        <li class="breadcrumb-item"><a href="index.php"><i class="fa fa-home"></i> <?=HOME?></a></li>
                         <li class="breadcrumb-item"><a href="#">Blog</a></li>
                         <li class="breadcrumb-item active" aria-current="page"><?=  $currentArticle->getTitre() ?></li>
                     </ol>
@@ -36,14 +36,14 @@
                             <h2 class="post-title"><?=  $currentArticle->getTitre() ?></h2>
                             <!-- Post Meta -->
                             <div class="post-meta">
-                                <a href="#"><span>by</span> <?=  $currentArticle->getAuteur() ?></a>
-                                <a href="#">03 <span>Comments</span></a>
+                                <a href="#"><span>par</span> <?=  $currentArticle->getAuteur() ?></a>
+                                <a href="#">03 <span>Commentaires</span></a>
                             </div>
                         </div>
 
                         <!-- Post Thumbnail -->
                         <div class="post-thumbnail mb-50">
-                            <img src="<?=PATH_IMG?><?=  $currentArticle->getIm1() ?>" alt="1ere illustration">
+                            <img src="<?=PATH_IMG?>post/<?=  $currentArticle->getIm1() ?>" alt="1ere illustration">
                         </div>
 
                         <!-- Post Text -->
@@ -66,16 +66,16 @@
                                 </div>
                                 <div class="blockquote-text">
                                     <h5><?=  $currentArticle->getCitation() ?></h5>
-                                    <h6><?=  $currentArticle->getAuteur() ?> </h6>
+                                    
                                 </div>
                             </blockquote>
 
                             <div class="row">
                                 <div class="col-12 col-md-6">
-                                    <img class="mb-30" src="<?=PATH_IMG?>/post/<?=  $currentArticle->getIm2() ?>" alt="">
+                                    <img class="mb-30" src="<?=PATH_IMG?>post/<?=  $currentArticle->getIm2() ?>" alt="">
                                 </div>
                                 <div class="col-12 col-md-6">
-                                    <img class="mb-30" src="<?=PATH_IMG?>/post/<?=  $currentArticle->getIm3() ?>" alt="">
+                                    <img class="mb-30" src="<?=PATH_IMG?>post/<?=  $currentArticle->getIm3() ?>" alt="">
                                 </div>
                             </div>
 
@@ -92,48 +92,45 @@
                             <!-- Related Post Area -->
                             <div class="related-posts clearfix">
                                 <!-- Headline -->
-                                <h4 class="headline">related posts</h4>
+                                <h4 class="headline">Articles relatifs</h4>
 
                                 <div class="row">
 
                                     <!-- Single Blog Post -->
-                                    <div class="col-12 col-lg-6">
-                                        <div class="single-blog-post mb-50">
-                                            <!-- Thumbnail -->
-                                            <div class="post-thumbnail">
-                                                <a href="#"><img src="img/blog-img/1.jpg" alt=""></a>
-                                            </div>
-                                            <!-- Content -->
-                                            <div class="post-content">
-                                                <p class="post-date">MAY 17, 2018 / lifestyle</p>
-                                                <a href="#" class="post-title">
-                                                    <h4>A Closer Look At Our Front Porch Items From Lowe’s</h4>
-                                                </a>
-                                                <p class="post-excerpt">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit.</p>
-                                            </div>
-                                        </div>
-                                    </div>
+                                    <div class="col-12 col-sm-6">
+														<div class="single-blog-post mb-50">
+																<!-- Thumbnail -->
+																<div class="post-thumbnail">
+																		<a href="#"><img src="<?=PATH_IMG?>blog-img/akame.jpg" alt="akame ga kill"></a>
+																</div>
+																<!-- Content -->
+																<div class="post-content">
+																		<p class="post-date">12 MARS 2019 / Article Complet</p>
+																		<a href="#" class="post-title">
+																				<h4>Akame Ga Kill : Le Kill Bill Japonais.</h4>
+																		</a>
+																		<p class="post-excerpt">Tatsumi veut rentrer dans l'armée, mais s'aperçoit bien vite que la réalité n'est pas aussi rose que l'imagination.</p>
+																</div>
+														</div>
+												</div>
 
                                     <!-- Single Blog Post -->
-                                    <div class="col-12 col-lg-6">
-                                        <div class="single-blog-post mb-50">
-                                            <!-- Thumbnail -->
-                                            <div class="post-thumbnail">
-                                                <a href="#"><img src="img/blog-img/4.jpg" alt=""></a>
-                                            </div>
-                                            <!-- Content -->
-                                            <div class="post-content">
-                                                <p class="post-date">MAY 25, 2018 / Fashion</p>
-                                                <a href="#" class="post-title">
-                                                    <h4>5 Things to Know About Dating a Bisexual</h4>
-                                                </a>
-                                                <p class="post-excerpt">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
+                                    <div class="col-12 col-sm-6">
+														<div class="single-blog-post mb-50">
+																<!-- Thumbnail -->
+																<div class="post-thumbnail">
+																		<a href="#"><img src="<?=PATH_IMG?>blog-img/initialD.jpg" alt="initial D"></a>
+																</div>
+																<!-- Content -->
+																<div class="post-content">
+																		<p class="post-date">16 MARS 2019 / Article Complet</p>
+																		<a href="#" class="post-title">
+																				<h4>Initial D : L'histoire accrochante d'un jeune prodige.</h4>
+																		</a>
+																		<p class="post-excerpt">L'histoire incroyable du jeune Takumi Fujiwara qui arpente les routes du col d'Akina (Japon) au volant de sa Toyota AE86.</p>
+																</div>
+														</div>
+												</div>
 
                             <!-- Comment Area Start -->
                             <div class="comment_area clearfix">
@@ -148,11 +145,11 @@
                                             </div>
                                             <!-- Comment Content -->
                                             <div class="comment-content">
-                                                <span class="comment-date">MAY 10, 2018</span>
+                                                <span class="comment-date">13 MARS 2019</span>
                                                 <h5>Calantha Flower</h5>
-                                                <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi</p>
-                                                <a href="#">Like</a>
-                                                <a class="active" href="#">Reply</a>
+                                                <p>Super Anime !!</p>
+                                                <a href="#">J'aime</a>
+                                                <a class="active" href="#">Repondre</a>
                                             </div>
                                         </div>
                                         <ol class="children">
@@ -164,11 +161,11 @@
                                                     </div>
                                                     <!-- Comment Content -->
                                                     <div class="comment-content">
-                                                        <span class="comment-date">MAY 18, 2018</span>
+                                                        <span class="comment-date">18 MARS 2019</span>
                                                         <h5>Dianna Agron</h5>
-                                                        <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi</p>
-                                                        <a href="#">Like</a>
-                                                        <a class="active" href="#">Reply</a>
+                                                        <p>J'adore l'article !</p>
+                                                        <a href="#">J'aime</a>
+                                                        <a class="active" href="#">Repondre</a>
                                                     </div>
                                                 </div>
                                             </li>
@@ -182,11 +179,11 @@
                                             </div>
                                             <!-- Comment Content -->
                                             <div class="comment-content">
-                                                <span class="comment-date">MAY 24, 2018</span>
+                                                <span class="comment-date">24 MARS 2019</span>
                                                 <h5>Chris Hemsworth</h5>
-                                                <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi</p>
-                                                <a href="#">Like</a>
-                                                <a class="active" href="#">Reply</a>
+                                                <p>Anime ajouté à ma liste !</p>
+                                                <a href="#">J'aime</a>
+                                                <a class="active" href="#">Repondre</a>
                                             </div>
                                         </div>
                                     </li>
@@ -196,14 +193,14 @@
                             <!-- Leave A Comment -->
                             <div class="leave-comment-area clearfix">
                                 <div class="comment-form">
-                                    <h4 class="headline">Leave A Comment</h4>
+                                    <h4 class="headline">Laisser un commentaire</h4>
 
                                     <!-- Comment Form -->
                                     <form action="#" method="post">
                                         <div class="row">
                                             <div class="col-12 col-md-6">
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" id="contact-name" placeholder="Name">
+                                                    <input type="text" class="form-control" id="contact-name" placeholder="Nom">
                                                 </div>
                                             </div>
                                             <div class="col-12 col-md-6">
@@ -213,11 +210,11 @@
                                             </div>
                                             <div class="col-12">
                                                 <div class="form-group">
-                                                    <textarea class="form-control" name="message" id="message" cols="30" rows="10" placeholder="Comment"></textarea>
+                                                    <textarea class="form-control" name="message" id="message" cols="30" rows="10" placeholder="Commentaire"></textarea>
                                                 </div>
                                             </div>
                                             <div class="col-12">
-                                                <button type="submit" class="btn nikki-btn">Send Message</button>
+                                                <button type="submit" class="btn nikki-btn">Envoyer</button>
                                             </div>
                                         </div>
                                     </form>
