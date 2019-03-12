@@ -1,6 +1,7 @@
 <?php
 
 // Accès base de données
+
 const BD_HOST = 'iutdoua-web.univ-lyon1.fr';
 const BD_DBNAME = 'p1700102';
 const BD_USER = 'p1700102';

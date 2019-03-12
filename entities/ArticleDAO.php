@@ -3,20 +3,20 @@ require_once(PATH_MODELS.'DAO.php');
 require_once(PATH_ENTITY.'Article.php');
 class ArticleDAO extends DAO{
 
-  public function getHebergement(){
-    $requete = "Select * from Hebergement";
+  public function getArticle(){
+    $requete = "Select * from Article";
     $data = $this->queryAll($requete);
     $i = 0;//compteur pour remplir le tableau d'objet
     if(empty($data) ){
-      $HebTab = null;
+      $ArTab = null;
     }else{
     foreach($data as $dat){//pour chaque ligne du tab a 2D
 
-      $HebTab[]= new Hebergement($dat[0], $dat[1], $dat[2], $dat[3], $dat[4], $dat[5], $dat[6], $dat[7], $dat[8]);//on créé un objet dans ce tableau
+      $ArTab[]= new Article($dat[0], $dat[1], $dat[2], $dat[3], $dat[4], $dat[5], $dat[6], $dat[7], $dat[8], $dat[9]);//on créé un objet dans ce tableau
       $i++;
     }
   }
-    return ($HebTab);
+    return ($ArTab);
   }
 
   public function addHebergement($identifiant, $type, $adresse, $numeroTel, $capacite, $services, $placesRestantes,$nom, $numUser){
