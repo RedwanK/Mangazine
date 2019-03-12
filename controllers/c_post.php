@@ -10,7 +10,7 @@ $ArTab = $ADAO->getArticle();
 
 if(isset($_GET['post'])){
     $post=$_GET['post'];
-    foreach($art as $ArTab){
+    foreach($ArTab as $art){
         if ($art->getTitre()==$post){
             $currentArticle = $art;
         }
