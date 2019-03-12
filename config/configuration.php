@@ -1,13 +1,10 @@
 <?php
 
 // Accès base de données
-const DEV = TRUE;
-
-const BD_HOST = !DEV?'' : 'localhost';
-const BD_DBNAME = !DEV?'' : 'diminuo';
-const BD_USER = !DEV?'' : 'root';
-const BD_PWD = !DEV?'' : '';
-const LINK = !DEV?'https://diminuo.lucien-brd.com/' : 'https://localhost/';
+const BD_HOST = 'iutdoua-web.univ-lyon1.fr';
+const BD_DBNAME = 'p1700102';
+const BD_USER = 'p1700102';
+const BD_PWD = '294150';
 
 // Langue du site
 const LANG ='FR-fr';
