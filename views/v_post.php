@@ -50,7 +50,7 @@
                         <div class="post-text">
                             <!-- Share -->
                             <div class="post-share">
-                                <span>Share</span>
+                                <span>Partagez</span>
                                 <a href="#" class="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
                                 <a href="#" class="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
                                 <a href="#" class="google-plus"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
@@ -97,19 +97,19 @@
                                 <div class="row">
 
                                     <!-- Single Blog Post -->
-                                    <div class="col-12 col-sm-6">
+												<div class="col-12 col-sm-6">
 														<div class="single-blog-post mb-50">
 																<!-- Thumbnail -->
 																<div class="post-thumbnail">
-																		<a href="#"><img src="<?=PATH_IMG?>blog-img/akame.jpg" alt="akame ga kill"></a>
+																		<a href="?page=post&post=GTO"><img src="<?=PATH_IMG?>blog-img/gto.jpg" alt="GTO"></a>
 																</div>
 																<!-- Content -->
 																<div class="post-content">
-																		<p class="post-date">12 MARS 2019 / Article Complet</p>
-																		<a href="#" class="post-title">
-																				<h4>Akame Ga Kill : Le Kill Bill Japonais.</h4>
+																		<p class="post-date">14 MARS 2019 / Article Complet</p>
+																		<a href="?page=post&post=GTO" class="post-title">
+																				<h4>Great Teacher Onizuka (GTO) : L'histoire folle d'Onizuka</h4>
 																		</a>
-																		<p class="post-excerpt">Tatsumi veut rentrer dans l'armée, mais s'aperçoit bien vite que la réalité n'est pas aussi rose que l'imagination.</p>
+																		<p class="post-excerpt">Eikichi Onizuka 22 ans célibataire et libre comme l'air.</p>
 																</div>
 														</div>
 												</div>
@@ -119,12 +119,12 @@
 														<div class="single-blog-post mb-50">
 																<!-- Thumbnail -->
 																<div class="post-thumbnail">
-																		<a href="#"><img src="<?=PATH_IMG?>blog-img/initialD.jpg" alt="initial D"></a>
+																		<a href="?page=post&post=InitialD"><img src="<?=PATH_IMG?>blog-img/initialD.jpg" alt="initial D"></a>
 																</div>
 																<!-- Content -->
 																<div class="post-content">
 																		<p class="post-date">16 MARS 2019 / Article Complet</p>
-																		<a href="#" class="post-title">
+																		<a href="?page=post&post=InitialD" class="post-title">
 																				<h4>Initial D : L'histoire accrochante d'un jeune prodige.</h4>
 																		</a>
 																		<p class="post-excerpt">L'histoire incroyable du jeune Takumi Fujiwara qui arpente les routes du col d'Akina (Japon) au volant de sa Toyota AE86.</p>
@@ -134,7 +134,7 @@
 
                             <!-- Comment Area Start -->
                             <div class="comment_area clearfix">
-                                <h4 class="headline">12 Comments</h4>
+                                <h4 class="headline">3 Commentaires</h4>
                                 <ol>
                                     <!-- Single Comment Area -->
                                     <li class="single_comment_area">

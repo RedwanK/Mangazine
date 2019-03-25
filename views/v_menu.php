@@ -9,7 +9,7 @@
                     <nav class="classy-navbar justify-content-between" id="nikkiNav">
 
                         <!-- Nav brand -->
-                        <a href="../" class="nav-brand"><img src="<?=PATH_IMG?>/blog-img/logoM.png" alt=""></a>
+                        <a href="index.php" class="nav-brand"><img src="<?=PATH_IMG?>/blog-img/logoM.png" alt=""></a>
 
                         <!-- Navbar Toggler -->
                         <div class="classy-navbar-toggler">

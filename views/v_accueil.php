@@ -128,12 +128,12 @@
 														<div class="single-blog-post mb-50">
 																<!-- Thumbnail -->
 																<div class="post-thumbnail">
-																		<a href="?page=post"><img src="<?=PATH_IMG?>blog-img/fire_punch.jpg" alt="fire punch"></a>
+																		<a href="index.php?page=post&post=Fire"><img src="<?=PATH_IMG?>blog-img/fire_punch.jpg" alt="fire punch"></a>
 																</div>
 																<!-- Content -->
 																<div class="post-content">
 																		<p class="post-date">20 MARS 2019 / Article Complet</p>
-																		<a href="#" class="post-title">
+																		<a href="index.php?page=post&post=Fire" class="post-title">
 																				<h4>Fire Punch : Bienvenue dans le monde de la vengeance.</h4>
 																		</a>
 																		<p class="post-excerpt">Découvrez un manga surpuissant qui saura vous remettre en cause.</p>
@@ -146,12 +146,12 @@
 														<div class="single-blog-post mb-50">
 																<!-- Thumbnail -->
 																<div class="post-thumbnail">
-																		<a href="#"><img src="<?=PATH_IMG?>blog-img/erased.jpg" alt="erased"></a>
+																		<a href="?page=post&post=Erased"><img src="<?=PATH_IMG?>blog-img/erased.jpg" alt="erased"></a>
 																</div>
 																<!-- Content -->
 																<div class="post-content">
 																		<p class="post-date">18 MARS 2019 / Revue d'Anime</p>
-																		<a href="#" class="post-title">
+																		<a href="?page=post&post=Erased" class="post-title">
 																				<h4>Erased : un retour en enfance !</h4>
 																		</a>
 																		<p class="post-excerpt">On suit l'histoire d'un mangaka qui n'a pas percé, et qui ère dans une boucle temporelle.</p>
@@ -164,12 +164,12 @@
 														<div class="single-blog-post mb-50">
 																<!-- Thumbnail -->
 																<div class="post-thumbnail">
-																		<a href="#"><img src="<?=PATH_IMG?>blog-img/initialD.jpg" alt="initial D"></a>
+																		<a href="?page=post&post=InitialD"><img src="<?=PATH_IMG?>blog-img/initialD.jpg" alt="initial D"></a>
 																</div>
 																<!-- Content -->
 																<div class="post-content">
 																		<p class="post-date">16 MARS 2019 / Article Complet</p>
-																		<a href="#" class="post-title">
+																		<a href="?page=post&post=InitialD" class="post-title">
 																				<h4>Initial D : L'histoire accrochante d'un jeune prodige.</h4>
 																		</a>
 																		<p class="post-excerpt">L'histoire incroyable du jeune Takumi Fujiwara qui arpente les routes du col d'Akina (Japon) au volant de sa Toyota AE86.</p>
@@ -182,12 +182,12 @@
 														<div class="single-blog-post mb-50">
 																<!-- Thumbnail -->
 																<div class="post-thumbnail">
-																		<a href="#"><img src="<?=PATH_IMG?>blog-img/gto.jpg" alt="GTO"></a>
+																		<a href="?page=post&post=GTO"><img src="<?=PATH_IMG?>blog-img/gto.jpg" alt="GTO"></a>
 																</div>
 																<!-- Content -->
 																<div class="post-content">
 																		<p class="post-date">14 MARS 2019 / Article Complet</p>
-																		<a href="#" class="post-title">
+																		<a href="?page=post&post=GTO" class="post-title">
 																				<h4>Great Teacher Onizuka (GTO) : L'histoire folle d'Onizuka</h4>
 																		</a>
 																		<p class="post-excerpt">Eikichi Onizuka 22 ans célibataire et libre comme l'air.</p>
@@ -195,23 +195,7 @@
 														</div>
 												</div>
 
-												<!-- Single Blog Post -->
-												<div class="col-12 col-sm-6">
-														<div class="single-blog-post mb-50">
-																<!-- Thumbnail -->
-																<div class="post-thumbnail">
-																		<a href="#"><img src="<?=PATH_IMG?>blog-img/akame.jpg" alt="akame ga kill"></a>
-																</div>
-																<!-- Content -->
-																<div class="post-content">
-																		<p class="post-date">12 MARS 2019 / Article Complet</p>
-																		<a href="#" class="post-title">
-																				<h4>Akame Ga Kill : Le Kill Bill Japonais.</h4>
-																		</a>
-																		<p class="post-excerpt">Tatsumi veut rentrer dans l'armée, mais s'aperçoit bien vite que la réalité n'est pas aussi rose que l'imagination.</p>
-																</div>
-														</div>
-												</div>
+												
 
 												<!-- Single Blog Post -->
 												<div class="col-12 col-sm-6">
@@ -223,12 +207,16 @@
 																<!-- Content -->
 																<div class="post-content">
 																		<p class="post-date">10 MARS 2019 / Article Complet</p>
-																		<a href="#" class="post-title">
+																		<a href="index.php?page=post&post=Angel" class="post-title">
 																				<h4>Angel Beats : Un réveil brutal.</h4>
 																		</a>
 																		<p class="post-excerpt">L'histoire etonnante de lycéens dans l'au delà.</p>
 																</div>
 														</div>
+												
+														<!-- Single Blog Post -->
+												
+
 												</div>
 
 										</div>
@@ -289,11 +277,11 @@
 												<!-- Single Latest Posts -->
 												<div class="single-latest-post d-flex">
 														<div class="post-thumb">
-																<img src="<?=PATH_IMG?>blog-img/Fire-punch.jpg" alt="fire_punch">
+																<a href="?page=post&post=Alita"><img src="<?=PATH_IMG?>blog-img/alita.jpeg" alt="alita"></a>
 														</div>
 														<div class="post-content">
-																<a href="#" class="post-title">
-																		<h6>Fire Punch</h6>
+																<a href="?page=post&post=Alita" class="post-title">
+																		<h6>Alita</h6>
 																</a>
 																<a href="#" class="post-author"><span>par</span> Paul</a>
 														</div>
@@ -302,23 +290,23 @@
 												<!-- Single Latest Posts -->
 												<div class="single-latest-post d-flex">
 														<div class="post-thumb">
-																<img src="<?=PATH_IMG?>blog-img/erased2.png" alt="erased">
+														<a href="?page=post&post=Erased"><img src="<?=PATH_IMG?>blog-img/erased2.png" alt="erased"></a>
 														</div>
 														<div class="post-content">
-																<a href="#" class="post-title">
+																<a href="?page=post&post=Erased" class="post-title">
 																		<h6>Erased</h6>
 																</a>
-																<a href="#" class="post-author"><span>par</span> Berson</a>
+																<a href="?page=post&post=Erased" class="post-author"><span>par</span> Berson</a>
 														</div>
 												</div>
 
 												<!-- Single Latest Posts -->
 												<div class="single-latest-post d-flex">
 														<div class="post-thumb">
-																<img src="<?=PATH_IMG?>blog-img/initialD2.jpg" alt="">
+														<a href="?page=post&post=InitialD"><img src="<?=PATH_IMG?>blog-img/initialD2.jpg" alt=""></a>
 														</div>
 														<div class="post-content">
-																<a href="#" class="post-title">
+																<a href="?page=post&post=InitialD" class="post-title">
 																		<h6>Initial D</h6>
 																</a>
 																<a href="#" class="post-author"><span>par</span> Redwan</a>
@@ -328,26 +316,26 @@
 												<!-- Single Latest Posts -->
 												<div class="single-latest-post d-flex">
 														<div class="post-thumb">
-																<img src="<?=PATH_IMG?>blog-img/gto2.jpg" alt="gto">
+														<a href="?page=post&post=GTO"><img src="<?=PATH_IMG?>blog-img/gto2.jpg" alt="gto"></a>
 														</div>
 														<div class="post-content">
-																<a href="#" class="post-title">
+																<a href="?page=post&post=GTO" class="post-title">
 																		<h6>Great Teacher Onizuka</h6>
 																</a>
-																<a href="#" class="post-author"><span>par</span> Mohamed</a>
+																<a href="?page=post&post=GTO" class="post-author"><span>par</span> Mohamed</a>
 														</div>
 												</div>
 
 												<!-- Single Latest Posts -->
 												<div class="single-latest-post d-flex">
 														<div class="post-thumb">
-																<img src="<?=PATH_IMG?>blog-img/akame2.jpg" alt="akame ga kill">
+														<a href="?page=post&post=Fire"><img src="<?=PATH_IMG?>blog-img/fire_punch.jpg" alt="fire punch"></a>
 														</div>
 														<div class="post-content">
-																<a href="#" class="post-title">
-																		<h6>Akame Ga Kill</h6>
+																<a href="?page=post&post=Fire" class="post-title">
+																		<h6>Fire Punch</h6>
 																</a>
-																<a href="#" class="post-author"><span>par</span> Mohamed</a>
+																<a href="#" class="post-author"><span>par</span> Paul</a>
 														</div>
 												</div>
 
